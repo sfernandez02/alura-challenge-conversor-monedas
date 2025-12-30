@@ -38,4 +38,4 @@ Este proyecto es ideal para practicar consumo de APIs, manejo de JSON, validaci√
 1. Clona el repositorio:
 
 ```bash
-git clone https://github.com/tuusuario/conversor-monedas.git
+git clone https://github.com/sfernandez02/alura-challenge-conversor-monedas
