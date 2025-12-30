@@ -4,5 +4,4 @@ public record Moneda(double conversion_result,
                      String result,
                      @SerializedName("error-type")
                      String error_type) {
-
 }

@@ -37,10 +37,6 @@ public class Principal {
                 case 7-> System.out.println("saliendo del programa.....");
                 default-> System.out.println("opcion no valida");
             }
-
         }while (opcion != 7);
-
     }
-
-
 }

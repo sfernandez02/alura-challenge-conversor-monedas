@@ -9,8 +9,6 @@ public class ConsultarApi {
     public String convertirMonedas(String morigen,String mdestino, double monto){
         URI direccion = URI.create("https://v6.exchangerate-api.com/v6/6b99d791553d434857367c08/pair/"+morigen+"/"+mdestino+"/"+monto);
         HttpClient client = HttpClient.newHttpClient();
-
-
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(direccion)
                 .build();
@@ -25,7 +23,5 @@ public class ConsultarApi {
         } catch (Exception e) {
             throw new RuntimeException(e.getMessage());
         }
-
-
     }
 }
